@@ -1,6 +1,9 @@
-bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+node_modules
+.next
+out
 .DS_Store
+.idea/
+.claude/
+next-env.d.ts
+*.tsbuildinfo
+.vercel

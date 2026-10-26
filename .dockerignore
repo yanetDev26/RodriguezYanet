@@ -1,7 +1,0 @@
-**/bin/
-**/obj/
-.git/
-.idea/
-.vs/
-*.user
-.DS_Store
