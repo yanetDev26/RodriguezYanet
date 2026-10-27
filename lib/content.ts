@@ -67,6 +67,18 @@ export const jobs: Job[] = [
     ],
   },
   {
+    role: { en: "Android Developer", es: "Desarrolladora Android" },
+    company: "Wayra Running Team", place: "Rafaela, Santa Fe",
+    dates: { en: "2025 – Jan 2026", es: "2025 – Ene 2026" }, platform: "android",
+    summary: { en: "Android app to run a gym from a phone, replacing the spreadsheets the team depended on.", es: "App Android para gestionar un gimnasio desde el celular, reemplazando las planillas de las que dependía el equipo." },
+    points: [
+      { en: "Built it end to end in Kotlin and Jetpack Compose with MVVM.", es: "La construí de punta a punta en Kotlin y Jetpack Compose con MVVM." },
+      { en: "Members, custom plans, fee and payment tracking, and expiry notifications.", es: "Gestión de alumnos, planes a medida, control de cuotas y pagos, y avisos de vencimiento." },
+      { en: "Metrics dashboard and reports, including an income projection.", es: "Panel de métricas y reportes, incluida una proyección de ingresos." },
+      { en: "Firebase backend with Crashlytics to monitor stability in production.", es: "Backend en Firebase con Crashlytics para monitorear la estabilidad en producción." },
+    ],
+  },
+  {
     role: { en: "Senior Mobile Developer (iOS / Android)", es: "Desarrolladora Mobile Senior (iOS / Android)" },
     company: "Flow · Personal (Telecom Argentina)", place: "Buenos Aires",
     dates: { en: "Oct 2022 – Jun 2026", es: "Oct 2022 – Jun 2026" }, platform: "both",
@@ -129,6 +141,11 @@ export const apps: App[] = [
     desc: { en: "A logistics marketplace. One Kotlin Multiplatform codebase for the logic, native UI on each platform.", es: "Un marketplace de logística. Una base Kotlin Multiplatform para la lógica y UI nativa en cada plataforma." },
     tags: ["Kotlin Multiplatform", "Jetpack Compose", "SwiftUI"], platforms: ["KMP", "iOS", "Android"],
     link: { href: "https://somosquantum.com.ar", label: "visit" },
+  },
+  {
+    name: "Wayra", kind: { en: "Gym management · Wayra Running Team", es: "Gestión de gimnasio · Wayra Running Team" },
+    desc: { en: "The whole gym on a phone: members, plans, payments, expiry alerts and income reports.", es: "Todo el gimnasio en el celular: alumnos, planes, cobros, avisos de vencimiento y reportes de ingresos." },
+    tags: ["Kotlin", "Jetpack Compose", "MVVM", "Firebase"], platforms: ["Android"],
   },
   {
     name: "Mutual del Tiro", kind: { en: "Member services · Rafaela", es: "Servicios para socios · Rafaela" },

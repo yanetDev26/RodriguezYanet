@@ -136,13 +136,14 @@ h1, h2, h3 { font-family: var(--display); margin: 0; letter-spacing: -0.02em; }
 .job-body li::marker { color: var(--acc); }
 
 /* Apps */
-.apps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.apps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .app { background: var(--paper); border: 1px solid var(--line); border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 12px; }
 .app-top { display: flex; gap: 14px; align-items: center; }
 .app-icon { width: 54px; height: 54px; border-radius: 14px; display: grid; place-items: center; font: 700 24px var(--display); color: #fff; background: var(--ink); flex: none; }
 .app:nth-child(1) .app-icon { background: linear-gradient(150deg, #3B4D7A, #13203A); }
 .app:nth-child(2) .app-icon { background: linear-gradient(150deg, #9B79F2, #6A3FD6); }
-.app:nth-child(3) .app-icon { background: linear-gradient(150deg, #4F86FF, #2453D6); }
+.app:nth-child(3) .app-icon { background: linear-gradient(150deg, #3CC48D, #1F7A55); }
+.app:nth-child(4) .app-icon { background: linear-gradient(150deg, #4F86FF, #2453D6); }
 .app h3 { font-size: 22px; }
 .app-kind { margin: 0; color: var(--muted); font-size: 14px; }
 .app-desc { margin: 0; font-size: 16px; }
